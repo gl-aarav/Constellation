@@ -66,16 +66,16 @@ class DipperPanel extends JPanel
 	public void drawDipper(Graphics g)
 	{
 		g.setColor(Color.WHITE);
-		int[] X = {40, 180, 220, 380, 520, 540, 400, 380, 220, 180, 40};
-		int[] Y = {220, 190, 200, 210, 140, 240, 300, 210, 200, 190, 220};
+		int[] X = {40, 170, 220, 360, 540, 560, 400, 360, 220, 170, 40};
+		int[] Y = {220, 180, 200, 220, 140, 240, 300, 220, 200, 180, 220};
 		g.drawPolygon(X,Y,11);
 
 		g.fillOval(36,216, 8, 8);
-		g.fillOval(175,186, 8, 8);
+		g.fillOval(166,176, 8, 8);
 		g.fillOval(216,196, 8, 8);
-		g.fillOval(376,206, 8, 8);
-		g.fillOval(516,136, 8, 8);
-		g.fillOval(536,236, 8, 8);
+		g.fillOval(356,216, 8, 8);
+		g.fillOval(536,136, 8, 8);
+		g.fillOval(556,236, 8, 8);
 		g.fillOval(396,296, 8, 8);
 	}
 
@@ -100,6 +100,6 @@ class DipperPanel extends JPanel
 		int[] flameY2 = {380, 375, 390};
 		g.fillPolygon(flameX2, flameY2, 3);
 
-		g.drawArc(-410, 345, 1100, 130, -90, 180);
+		g.drawArc(20, 323, 680, 200, -50, 180);
 	}
 }
